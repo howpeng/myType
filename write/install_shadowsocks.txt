@@ -1,0 +1,82 @@
+1.在使用SSH登录服务器，搭建shadowsocks服务。
+ssh [username]@[ssh ip] 
+再输入密码
+
+创建一个用户来使用shadowsocks服务，而不是用root用户。
+# useradd fornet   (创建一个名为fornet的用户）
+# passwd fornet    (设置fornet的密码，为fornet123)
+
+
+vps中安装shadowsocks:
+使用pip安装shadowsocks，安装pip前先要安装setuptools，安装setuptools之前先要安装python.这是一个依赖关系。
+1.安装setuptools
+	yum install -y python-setuptools
+2.安装pip
+	easy_install pip
+3.安装shadowsocks
+	pip install shadowsocks
+
+配置shadowsocks:
+
+
+
+安装shadowsocks-python版本：
+teddysun.com/342.html上有方法
+密码为fornet
+端口8989
+配置文件如下：
+～～～～～～～～～～～～～～～～～～
+your server ip: 181.215.102.224
+your server port: 8989,
+your password: fornet
+your local IP: 127.0.0.1
+your local port: 1080
+your encryption method: aes-256-cfb
+～～～～～～～～～～～～～～～～～～
+单用户配置路径：/etc/shadowsocks.json
+｛
+	"server":"181.215.102.224",
+	"server_port":8989,
+	"local_address":"127.0.0.1",
+	"local_port":1080,
+	"password":"your password",
+	"timeout":"aes-256-cfb",
+	"fast_open": false
+}
+
+多用户多端口配置文件：/etc/shadowsocks.json
+{	"server":"0.0.0.0",
+	"server_port":9090,
+	"local_address":"127.0.0.1",
+	"local_port":1080,
+	"password":{
+		"8989":"password0",
+		"9090":"password1",	
+		"9001":"password2"
+		}
+	"timeout":"aes-256-cfb",
+	"fast_open": false
+}
+～～～～～～～～～～～～～～～～～～～
+使用命令：
+启动：/etc/init.d/shadowsocks start
+停止：/etc/init.d/shadowsocks stop 
+重启：/etc/init.d/shadowsocks restart
+状态：/etc/init.d/shadowsocks status
+
+-------------------------------------
+2016.04.11
+shadowsocks start success
+ 
+Congratulations, shadowsocks install completed!
+Your Server IP:  181.215.102.224 
+Your Server Port:  8999 
+Your Password:  howpeng.vps 
+Your Local IP:  127.0.0.1 
+Your Local Port:  1080 
+Your Encryption Method:  aes-256-cfb 
+ 
+Welcome to visit:https://teddysun.com/342.html
+Enjoy it!
+ 	
+http://teddysun.com/342.html

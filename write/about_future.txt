@@ -1,0 +1,10 @@
+师傅说要学html css js jQuey, angular
+
+进度：
+	html：20160209学headfirst——html到512页（其中的图片处理和字体没看)。
+
+
+*   javascript dom编程艺术
+*   javascript 高级程序设计
+*   javascript good parts （蝴蝶书）
+*   javascript web富应用开发（猫头鹰书）
