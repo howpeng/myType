@@ -10,10 +10,27 @@ As an educator, researcher, and book author, I am delighted to see the completio
 
 Despite Python’s appeal to many different communities, you may still wonder why Python? or why teach programming with Python? Answering these questions is no simple task—especially when popular opinion is on the side of more masochistic alternatives such as C++ and Java. However, I think the most direct answer is that programming in Python is simply a lot of fun and more productive.
 
+> 尽管在许多不同的社区都能见到Python的身影，你可能仍会好奇为什么是Python，为什么要用Python来教授编程？回答这些问题并不简单，尤其是当主流观点都站在如C++和Java等更加复杂的语言一边。但是，我认为最直接的答案是，使用Python编程只是因为它更有趣、更高效。
+
 When I teach computer science courses, I want to cover important concepts in addition to making the material interesting and engaging to students. Unfortunately, there is a tendency for introductory programming courses to focus far too much attention on mathematical abstraction and for students to become frustrated with annoying problems related to low-level details of syntax, compilation, and the enforcement of seemingly arcane rules. Although such abstraction and formalism is important to professional software engineers and students who plan to continue their study of computer science, taking such an approach in an introductory course mostly succeeds in making computer science boring. When I teach a course, I don’t want to have a room of uninspired students. I would much rather see them trying to solve interesting problems by exploring different ideas, taking unconventional approaches, breaking the rules, and learning from their mistakes. In doing so, I don’t want to waste half of the semester trying to sort out obscure syntax problems, unintelligible compiler error messages, or the several hundred ways that a program might generate a general protection fault.
+
+> 当我教授计算机科学这门课时，我想要额外覆盖更多重要的概念，好让材料更加有趣，更能吸引学生。不幸的是，编程入门课程总是过分关注数学上的抽象，低层次的语法细节、编译和看似神秘的规则的烦人问题使学生们感到沮丧。尽管这些抽象概念和形式主义对于专业软件工程师和想要深入学习计算机科学的学生来说非常重要，可在入门课程中这样做还是会使得计算机科学变得非常无趣。当我教授一门课程时，我不希望看到一屋子无精打采的学生。我更希望看到他们通过不同的方法努力解决有趣的问题，采用不同寻常的方法，打破规则，从所犯的错误中学习。这种情况下，我不想浪费半个学期的时间来解决晦涩的语法问题，难以理解的编译器错误信息，或是程序可能生成的几百种保护性错误。
+
 
 One of the reasons why I like Python is that it provides a really nice balance between the practical and the conceptual. Since Python is interpreted, beginners can pick up the language and start doing neat things almost immediately without getting lost in the problems of compilation and linking. Furthermore, Python comes with a large library of modules that can be used to do all sorts of tasks ranging from web-programming to graphics. Having such a practical focus is a great way to engage students and it allows them to complete significant projects. However, Python can also serve as an excellent foundation for introducing important computer science concepts. Since Python fully supports procedures and classes, students can be gradually introduced to topics such as procedural abstraction, data structures, and object-oriented programming — all of which are applicable to later courses on Java or C++. Python even borrows a number of features from functional programming languages and can be used to introduce concepts that would be covered in more detail in courses on Scheme and Lisp.
 
+> 我喜欢Python的一个理由是，它在实践和概念之间提供了非常好的平衡。由于Python是解释性语言，初学者可以立刻使用它做一些巧妙的事，而不会迷失在编译和链接的问题中。另外，Python自带了一个巨大的模块库，可以用来实现从网络编程到图形学等所有任务。这些实用的特点吸引了大量的学生，并且帮助他们完成重大项目。而且，Python还能为引入重要的计算机概念打下了良好基础。由于Python完全支持过程和类，学生们可以逐步了解过程抽象、数据结构和面向对象编程等主题，这些都能够运用到后期Java和C++的课程中。Python甚至还借鉴了函数式编程中的一些特性，可以利用这些特性来介绍深入学习Scheme和Lisp时的一些概念。
+
+
 In reading Jeffrey’s preface, I am struck by his comments that Python allowed him to see a higher level of success and a lower level of frustration and that he was able to move faster with better results. Although these comments refer to his introductory course, I sometimes use Python for these exact same reasons in advanced graduate level computer science courses at the University of Chicago. In these courses, I am constantly faced with the daunting task of covering a lot of difficult course material in a blistering nine week quarter. Although it is certainly possible for me to inflict a lot of pain and suffering by using a language like C++, I have often found this approach to be counterproductive—especially when the course is about a topic unrelated to just programming. I find that using Python allows me to better focus on the actual topic at hand while allowing students to complete substantial class projects.
 
+> 在阅读Jeffrey的序言时，我被他的评论所震撼，他说Python让他增加了成功率，降低了失败率，让他更快地得到更好的结果。尽管这些评论涉及他的入门课程，我在芝加哥大学学习计算机科学研究生课程时也会因为这些特点而使用Python。在学习这些课程的酷热的九周时间里，我不断的面对艰深的课程材料中那令人气馁的任务。尽管使用C++等语言让我遭受不少痛苦，我还发现这样反而适得其反。尤其是当课程与主题无关，只是纯粹地编程时。我发现，使用Python可以让我集中精力在手头的主题上的同时，也能让学生完成大量的课堂项目。
+
+
 Although Python is still a young and evolving language, I believe that it has a bright future in education. This book is an important step in that direction. David Beazley University of Chicago Author of the Python Essential Reference
+
+> 虽然Python是一门年轻的、仍在发展中的语言，我相信它在教育上有一个光明的前景。这本书是朝这一方向上迈出的重要一步。
+
+>               David Beazley
+    芝加哥大学
+    《PythonEssentialReference》作者
